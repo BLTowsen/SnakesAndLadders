@@ -6,8 +6,9 @@
 
 int main()
 {
-	Board board;
+	Board board(1);
 	board.display();
+	board.update();
 	board.display();
 }
 

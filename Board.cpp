@@ -3,10 +3,10 @@
 Board::Board(int numPlayers) {
 	for (int i = 0; i < numPlayers; i++) {
 		//create player object
-		Player *player = new Player();
+		Player player = Player();
 		players.push_back(player);
 	}
-}
+};
 void Board::display() {
 	system("CLS");
 	for (int i = 0; i < 10; i++) {
@@ -18,5 +18,7 @@ void Board::display() {
 }
 
 void Board::update() {
-
+	for (Player x : players) {
+		boardWithPlayers[x.getNewY()][x.getNewX()] = "_A_";
+	}
 }
