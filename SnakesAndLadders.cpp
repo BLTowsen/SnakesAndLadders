@@ -8,6 +8,7 @@ int main()
 {
 	Board board;
 	board.display();
+	board.display();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <stdlib.h>
+#include "player.h"
 
 class Board {
 private:
@@ -25,9 +27,9 @@ private:
 										{"___", "___", "___", "___", "___", "___", "___", "___", "___", "___"},
 										{"___", "___", "___", "___", "___", "___", "___", "___", "___", "___"},
 										{"___", "___", "___", "___", "___", "___", "___", "___", "___", "___"}, };
-
+	std::vector<*Player> players;
 public:
-	Board();
+	Board(int numPlayers);
 	void display();
 	void update();
 };

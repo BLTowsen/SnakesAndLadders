@@ -1,4 +1,20 @@
 ﻿  Board.cpp
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,15): error C2275: 'Player': illegal use of this type as an expression
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\player.h(2): message : see declaration of 'Player'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,7): error C2974: 'std::vector': invalid template argument for '_Ty', type expected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : see declaration of 'std::vector'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : see declaration of 'std::vector'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\Board.cpp(3,30): error C2512: 'std::vector': no appropriate default constructor available
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412,14): message : see declaration of 'std::vector'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\Board.cpp(7,10): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
   SnakesAndLadders.cpp
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,15): error C2275: 'Player': illegal use of this type as an expression
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\player.h(2): message : see declaration of 'Player'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,7): error C2974: 'std::vector': invalid template argument for '_Ty', type expected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : see declaration of 'std::vector'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(30,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\vector(412): message : see declaration of 'std::vector'
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\SnakesAndLadders.cpp(9,8): error C2512: 'Board': no appropriate default constructor available
+C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\SnakesAndLadders\board.h(8,7): message : see declaration of 'Board'
   Generating Code...
-  SnakesAndLadders.vcxproj -> C:\Users\lawra\Desktop\Coding\C++\SnakesAndLadders\Debug\SnakesAndLadders.exe
